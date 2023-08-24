@@ -27,24 +27,27 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
         <WhiteBackgroundContainer>
           <Hero />
           <Partners />
-          <BasicSection imageUrl="/demo-illustration-1.svg" title="Lorem ipsum dolor sit amet consectetur." overTitle="sit amet gogo">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quidem error incidunt a doloremque voluptatem porro inventore
-              voluptate quo deleniti animi laboriosam.{' '}
-              <Link href="/help-center">Possimus ullam velit rem itaque consectetur, in distinctio?</Link> Lorem ipsum, dolor sit amet
-              consectetur adipisicing elit. Soluta repellendus quia quos obcaecati nihil. Laudantium non accusantium, voluptate eum nesciunt
-              at suscipit quis est soluta?
-            </p>
+          <BasicSection imageUrl="/demo-illustration-1.svg" title="Firmeza y Ligereza." overTitle="yoga">
+            <p>El Arte Sutil del Equilibrio Yóguico.</p>
+            <ul>
+              <li> Yoga Solar o dinamico con herramientas integrales para el desarollo sustentaable y contnuo de la auto practica</li>
+              <li>
+                Yoga Lunar o regenerativo. Progresivo y respaldados por elemntos que permiten profundizar y habitar la practica desde la
+                constante sensacion de soporte y seguridad.
+              </li>
+            </ul>
           </BasicSection>
-          <BasicSection imageUrl="/demo-illustration-2.svg" title="Lorem ipsum dolor sit." overTitle="lorem ipsum" reversed>
+          <BasicSection imageUrl="/demo-illustration-2.svg" title="Entreneminto integral" overTitle="Disponibilidad Corporal" reversed>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quidem error incidunt a doloremque voluptatem porro inventore{' '}
-              <strong>voluptate quo deleniti animi laboriosam</strong>. Possimus ullam velit rem itaque consectetur, in distinctio?
+              Una propuesta de entremiento fisico basado en tecnicas danza y artes marciales para aumentar tu rango y posibilidad de
+              movimiento
+              <strong> Moverte con soltura y flexibilidad</strong>. Corregir tu postura, prevenir accidentes y contar con un rango mas aplio
+              se confianza motora
             </p>
             <ul>
-              <li>Professional point 1</li>
-              <li>Professional remark 2</li>
-              <li>Professional feature 3</li>
+              <li>Fuerza estructural</li>
+              <li>Flexibilidad integral</li>
+              <li>Trabajo cardio respiratorio</li>
             </ul>
           </BasicSection>
         </WhiteBackgroundContainer>

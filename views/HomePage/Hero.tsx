@@ -14,11 +14,12 @@ export default function Hero() {
   return (
     <HeroWrapper>
       <Contents>
-        <CustomOverTitle>the coolest, saas product you have ever seen</CustomOverTitle>
-        <Heading>Make your life easier with our SaaS</Heading>
+        <CustomOverTitle>Educacion en la autopractica y respiracion</CustomOverTitle>
+        <Heading> Yoga Disponibilidad corporal</Heading>
         <Description>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, tempora qui. Explicabo voluptate iure ipsum molestias
-          repudiandae perspiciatis nostrum praesentium, unde pariatur tempora magni rem. Necessitatibus facilis obcaecati ratione.
+          Independientente de la disiplina practicada, exite un estado de intimidad y activacion del espacio interno en nuestro cuerpo que
+          es natural al ser humano. Atravez de la practica de Yoga y diferentes tecnicas somaticas de entrenamiento te propongo reconectar
+          con tu naturaleza de activacion y movimiento.
         </Description>
         <CustomButtonGroup>
           <Button onClick={() => setIsModalOpened(true)}>
@@ -26,7 +27,7 @@ export default function Hero() {
           </Button>
           <NextLink href="#whitepaper" passHref>
             <Button transparent>
-              Features <span>&rarr;</span>
+              YOGA TERRA <span>&rarr;</span>
             </Button>
           </NextLink>
         </CustomButtonGroup>

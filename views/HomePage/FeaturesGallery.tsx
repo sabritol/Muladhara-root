@@ -76,7 +76,7 @@ export default function FeaturesGallery() {
   return (
     <FeaturesGalleryWrapper>
       <Content>
-        <OverTitle>features</OverTitle>
+        <OverTitle>YOGA lorem</OverTitle>
         <SectionTitle>What are you signing in for?</SectionTitle>
       </Content>
       <GalleryWrapper>
