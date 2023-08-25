@@ -12,17 +12,17 @@ import { createGlobalStyle } from 'styled-components';
 export const GlobalStyle = createGlobalStyle`
 
 .next-light-theme {
-  --background: 251,251,253;
-  --secondBackground: 255,255,255;
+  --background: 232, 227, 211;
+  --secondBackground: 232, 227, 211;
   --text: 10,18,30;
   --textSecondary: 255,255,255;
-  --primary: 0, 204, 187; 
-  --secondary: 10,18,30;
+  --primary: 135, 194, 205; 
+  --secondary: 118, 65, 120;
   --tertiary: 160, 222, 217;
   --cardBackground: 255,255,255;
   --inputBackground: 255,255,255;
-  --navbarBackground: 255,255,255;
-  --modalBackground: 251,251,253;
+  --navbarBackground: 232, 227, 211;
+  --modalBackground: 232, 227, 211;
   --errorColor: 207,34,46;
   --logoColor: #243A5A;
 }
@@ -32,8 +32,8 @@ export const GlobalStyle = createGlobalStyle`
   --secondBackground: 45,55,72;
   --text: 237,237,238;
   --textSecondary: 255,255,255;
-  --primary: 118, 65, 120; 
-  --secondary: 10,18,30;
+  --primary: 135, 194, 205; 
+  --secondary: 118, 65, 120;
   --tertiary: 231,241,251;
   --cardBackground: 45,55,72;
   --inputBackground: 45,55,72;

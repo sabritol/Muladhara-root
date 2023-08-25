@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import Button from 'components/Button';
 import ButtonGroup from 'components/ButtonGroup';
 import Container from 'components/Container';
-import HeroIllustration from 'components/HeroIllustation';
+// import HeroIllustration from 'components/HeroIllustation';
 import OverTitle from 'components/OverTitle';
 import { useNewsletterModalContext } from 'contexts/newsletter-modal.context';
 import { media } from 'utils/media';
@@ -15,11 +15,13 @@ export default function Hero() {
     <HeroWrapper>
       <Contents>
         <CustomOverTitle>Educacion en la autopractica y respiracion</CustomOverTitle>
-        <Heading> Yoga Disponibilidad corporal</Heading>
+        <Heading> Practicas fisicas y somaticas</Heading>
         <Description>
           Independientente de la disiplina practicada, exite un estado de intimidad y activacion del espacio interno en nuestro cuerpo que
           es natural al ser humano. Atravez de la practica de Yoga y diferentes tecnicas somaticas de entrenamiento te propongo reconectar
-          con tu naturaleza de activacion y movimiento.
+          con tu naturaleza de activacion y movimiento. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius magnam unde optio
+          quidem pariatur? Omnis, laborum blanditiis nulla sed tenetur harum numquam veritatis accusamus tempore natus. Veniam delectus
+          minus atque.
         </Description>
         <CustomButtonGroup>
           <Button onClick={() => setIsModalOpened(true)}>
@@ -32,9 +34,7 @@ export default function Hero() {
           </NextLink>
         </CustomButtonGroup>
       </Contents>
-      <ImageContainer>
-        <HeroIllustration />
-      </ImageContainer>
+      <ImageContainer>{/* <HeroIllustration /> */}</ImageContainer>
     </HeroWrapper>
   );
 }
@@ -66,7 +66,7 @@ const CustomButtonGroup = styled(ButtonGroup)`
 const ImageContainer = styled.div`
   display: flex;
   flex: 1;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: flex-start;
 
   svg {

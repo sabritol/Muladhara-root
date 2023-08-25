@@ -2,14 +2,14 @@ import { InferGetStaticPropsType } from 'next';
 import Head from 'next/head';
 import styled from 'styled-components';
 import BasicSection from 'components/BasicSection';
-import Link from 'components/Link';
+// import Link from 'components/Link';
 import { EnvVars } from 'env';
 import { getAllPosts } from 'utils/postsFetcher';
 import Cta from 'views/HomePage/Cta';
 import Features from 'views/HomePage/Features';
 import FeaturesGallery from 'views/HomePage/FeaturesGallery';
 import Hero from 'views/HomePage/Hero';
-import Partners from 'views/HomePage/Partners';
+// import Partners from 'views/HomePage/Partners';
 import ScrollableBlogPosts from 'views/HomePage/ScrollableBlogPosts';
 import Testimonials from 'views/HomePage/Testimonials';
 
@@ -26,8 +26,8 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
       <HomepageWrapper>
         <WhiteBackgroundContainer>
           <Hero />
-          <Partners />
-          <BasicSection imageUrl="/demo-illustration-1.svg" title="Firmeza y Ligereza." overTitle="yoga">
+          {/* <Partners /> */}
+          <BasicSection imageUrl="/yoga.svg" title="Yoga." overTitle="Firmeza y Ligereza">
             <p>El Arte Sutil del Equilibrio Yóguico.</p>
             <ul>
               <li> Yoga Solar o dinamico con herramientas integrales para el desarollo sustentaable y contnuo de la auto practica</li>
@@ -37,7 +37,7 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
               </li>
             </ul>
           </BasicSection>
-          <BasicSection imageUrl="/demo-illustration-2.svg" title="Entreneminto integral" overTitle="Disponibilidad Corporal" reversed>
+          <BasicSection imageUrl="/dance.svg" title="Entreneminto integral" overTitle="Disponibilidad Corporal" reversed>
             <p>
               Una propuesta de entremiento fisico basado en tecnicas danza y artes marciales para aumentar tu rango y posibilidad de
               movimiento
